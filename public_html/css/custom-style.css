@@ -1,7 +1,7 @@
 div {
     border-style: groove;
-    border-width: 5px;
-    border-color: yellow;
+    border-width: 2px;
+    border-color: orange;
     padding: 20px;
 }
 
@@ -10,7 +10,7 @@ div {
 }
 
 .row {
-    border-color: red;
+    border-color: orange;
 }
 
 .list-group-item {
