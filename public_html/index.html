@@ -14,51 +14,70 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
-       
-                
-                    
-                        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                            <div class="container-fluid">
-                                <ul class="nav nav-tabs">
-                                    <li><a  href="index.html" id="current-link">About Me</a></li>
-                                    <li><a  href="projects.html">Projects</a></li>
-                                    <li><a  href="technology.html">Technology</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-         <div class="container">
-            
+
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <ul class="nav nav-tabs">
+                    <li><a  class="dropdown" data-toggle="dropdown" href="index.html" id="current-link">About Me<span class="caret"></span> </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.usfirst.org/roboticsprograms/ftc">
+                                    Robotics-FTC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a  href="projects.html">Projects</a></li>
+                    <li><a  href="technology.html">Technology</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
             <div class="row">
-                
-                    <div class="col-xs-10 content">
-                        <h2>About Me</h2>
-                        <div class="row">
-                            <a name="info"><h3>Personal Info</h3></a>
-                            <div class="col-xs-12">
-                                <p>My name is Esme Grundy. I am a senior at Pasadena High School. Currently,
-                                   I play goalkeeper for PHS's girls soccer team. I also participate in a 
-                                   Robotics team at PHS. I like the color orange and one day I would like to 
-                                   visit Tokyo, Paris, and London. </p>
-                                <img src="http://cache.graphicslib.viator.com/graphicslib/destination/tokyo-152580.jpg" 
-                                     class="img-responsive img-rounded" alt="Responsive Image">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <a name="hobbies"><h3>Hobbies</h3></a>
-                            <div class="col-xs-12">
-                                <p>I enjoy playing soccer, watching TV, and hanging out with my friends</p>
-                                <img src="http://www.kroccenterchicago.com/wp-content/uploads/2013/09/SoccerField.jpg"
-                                     class="img-responsive img-rounded" alt="Responsive Image">
-                            </div>
-                        </div>
-                      
+                <div class="col-xs-12">
+                    <div  class="jumbotron">
+                        <h1 class="jumbotron-text">My name is Esme Grundy.</h1>
+                        <p class="jumbotron-text">This is my portfolio website. Enjoy.</p>
+
                     </div>
-                <div class="col-xs-2 list-group">
+                </div>
+            </div>
+
+            <div class="row">
+
+
+                <div class="col-xs-10 content">
+                    <h2>About Me</h2>
+                    <div class="row">
+                        <a name="info"><h3>Personal Info</h3></a>
+                        <div class="col-xs-12">
+                            <p>My name is Esme Grundy. I am a senior at Pasadena High School. Currently,
+                                I play goalkeeper for PHS's girls soccer team. I also participate in a 
+                                Robotics team at PHS. I like the color orange and one day I would like to 
+                                visit Tokyo, Paris, and London. </p>
+                            <img src="http://cache.graphicslib.viator.com/graphicslib/destination/tokyo-152580.jpg" 
+                                 class="img-responsive img-rounded" alt="Responsive Image">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a name="hobbies"><h3>Hobbies</h3></a>
+                        <div class="col-xs-12">
+                            <p>I enjoy playing soccer, watching TV, and hanging out with my friends</p>
+                            <img src="http://www.kroccenterchicago.com/wp-content/uploads/2013/09/SoccerField.jpg"
+                                 class="img-responsive img-rounded" alt="Responsive Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-2 list-group table-of-contents">
                     <h4>Table of Contents:</h4>
                     <a class="list-group-item" href="#info">Personal Info</a>
                     <a class="list-group-item" href="#hobbies">Hobbies</a>
-                 </div>
+                </div>
             </div>
-         </div>
+        </div>
     </body>
 </html>

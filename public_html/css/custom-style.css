@@ -1,9 +1,10 @@
 body {
     padding-top: 70px;
+    background-color: white;
 }
 
 nav {
-    
+    font-size: 20px;
 }
     
 
@@ -28,6 +29,7 @@ div {
     border: 0;
     margin-top: 40px;
     margin-bottom: 40px;
+    color: #f2dede;
 }
 
 .content {
@@ -37,4 +39,19 @@ div {
 
 #current-link {
     font-weight: bolder;
+    font-size: 25px;
+}
+
+.jumbotron {
+    background-image: url("http://wallpoper.com/images/00/43/54/14/sakura-cherry-blossom_00435414.jpg")
+    
+}
+
+.jumbotron-text {
+    color: white;
+}
+
+h1 {
+    color: white;
+    
 }
