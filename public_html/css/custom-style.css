@@ -38,8 +38,7 @@ div {
 }
 
 #current-link {
-    font-weight: bolder;
-    font-size: 25px;
+    background-color: #46b8da
 }
 
 .jumbotron {
@@ -51,7 +50,13 @@ div {
     color: white;
 }
 
-h1 {
+.jumbotron-head {
+    font-size: 60px;
     color: white;
     
+}
+
+.chelsea {
+    width: 400px;
+    height: auto;
 }
