@@ -1,6 +1,7 @@
 body {
     padding-top: 70px;
     background-color: white;
+    position: relative;
 }
 
 nav {
@@ -59,4 +60,9 @@ div {
 .chelsea {
     width: 400px;
     height: auto;
+}
+
+.dropdown1 {
+    list-style: none;
+    text-align: left;
 }
