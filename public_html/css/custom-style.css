@@ -1,68 +1,86 @@
 body {
-    padding-top: 70px;
+    padding-top: 30px;      /*makes background white and sets body slightyly below navbar*/
     background-color: white;
     position: relative;
 }
 
 nav {
-    font-size: 20px;
+    font-size: 20px;    /*sets size of text in navbar*/
 }
     
 
 div {
-    border-style: hidden;
+    border-style: hidden;   /*no visible borders with 20 pixels of space between content and borders*/
     border-width: 2px;
     border-color: white;
     padding: 20px;
 }
 
 .container {
-    border-style: none;
+    border-style: none;     /*no visible borders*/
     border-color: white;
 }
 
 .row {
-    border-style: none;
+    border-style: none;   /*no visible borders*/  
     border-color: white;
 }
 
 .list-group-item {
-    border: 0;
+    border: 0;          /*no visible borders on Table of Contents*/
     margin-top: 40px;
     margin-bottom: 40px;
     color: #f2dede;
 }
 
 .content {
-    border-style: hidden;
+    border-style: hidden;   /*no visible borders*/
     border-color: grey;
 }
 
 #current-link {
-    background-color: #46b8da
+    background-color: #46b8da   /*makes current link blue*/
 }
 
 .jumbotron {
-    background-image: url("http://wallpoper.com/images/00/43/54/14/sakura-cherry-blossom_00435414.jpg")
+    background-image: url("http://wallpoper.com/images/00/43/54/14/sakura-cherry-blossom_00435414.jpg")     /*jumbotron in 
+                                                                                                            modal background
+                                                                                                            image*/
     
 }
 
 .jumbotron-text {
-    color: white;
+    color: white;   /*text (p) white*/
 }
 
 .jumbotron-head {
-    font-size: 60px;
+    font-size: 60px;    /*text (h1) white*/
     color: white;
     
 }
 
 .chelsea {
-    width: 400px;
+    width: 400px;   /*resizes Chelsea logo*/
     height: auto;
 }
 
 .dropdown1 {
-    list-style: none;
+    list-style: none;   /*styles dropdown menu in About Me modal*/
     text-align: left;
+    padding-left: 0px;
+}
+
+.jumbo-back {
+    background-image: url("http://wolbest.com/wp-content/uploads/2014/09/Cherry-Blossom-Tree.jpg")  /*sets background 
+                                                                                                    image for 
+                                                                                                    background jumbotron*/
+}
+
+.carousel-caption {
+    color: #ec971f;     /*makes carousel captions orange*/
+}
+
+.name {
+    font-size: 30px;    /*Made name stand out in navbar*/
+    color: #dca7a7;
 }
