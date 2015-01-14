@@ -7,7 +7,7 @@ body {
 nav {
     font-size: 20px;    /*sets size of text in navbar*/
 }
-    
+
 
 div {
     border-style: hidden;   /*no visible borders with 20 pixels of space between content and borders*/
@@ -54,7 +54,7 @@ div {
 .jumbotron-head {
     font-size: 60px;    /*text (h1) white*/
     color: white;
-    
+
 }
 
 .chelsea {
@@ -93,4 +93,54 @@ div {
 
 p {
     color: white;
+}
+
+.flip-container {
+    perspective: 1000;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 320px;
+    height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+
+video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url('videos/Falling Leaves.mp4') no-repeat;
+    background-size: cover;
 }
