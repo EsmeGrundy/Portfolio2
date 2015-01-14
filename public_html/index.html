@@ -23,16 +23,23 @@ and open the template in the editor.
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#technology">Technology</a></li>
+                    <li><form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form></li>
                 </ul>
+
             </div>
         </nav>
-        <div class="jumbotron jumbo-back">
+        <div class="jumbotron jumbo-back" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <!--Jumbotron-->
                         <div  class="jumbotron">
-                            <h1 class="jumbotron-head">My name is Esme Grundy.</h1>
+                            <h1 class="jumbotron-head" id="intro">My name is Esme Grundy.</h1>
                             <p class="jumbotron-text">This is my portfolio website. Enjoy.</p>
                             <!-- Button trigger modal -->
                             <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -176,7 +183,7 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <div class="jumbotron jumbo-projects">
+        <div class="jumbotron jumbo-projects" id="projects">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 content">
@@ -208,11 +215,19 @@ and open the template in the editor.
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/SnakeSS.png" alt="...">
+                                    <img src="images/SnakeScreen.png" alt="...">
                                     <div class="carousel-caption">
                                         <h3>Snake</h3>
                                         <p>Using HTML, CSS, and Javascript, I made a 
                                             game where a snake moves on the screen.</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/MarioSS.png" alt="...">
+                                    <div class="carousel-caption">
+                                        <h3>Mario</h3>
+                                        <p>Using MelonJS, Javascript, and HTML, I created a multi-level,
+                                            character based video game.</p>
                                     </div>
                                 </div>
                             </div>
@@ -234,57 +249,82 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-10 content">
-
+        <div class="jumbotron jumbo-tech" id="technology">
+            <div class="container">
                 <div class="row">
-                    <a name="HTML"><h3>HTML</h3></a>
-                    <div class="col-xs-12">
-                        <p>HTML stands for Hyper Text Markup Language. 
-                            The HTML language is made up of elements,
-                            which are then enclosed within tags. Tags 
-                            are enclosed within angle brackets. Web browsers 
-                            are able to read html files and compose them into 
-                            visible web pages. Html was created by 
-                            <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>.</p>
-                        <!--Picture as link-->
-                        <a href="http://www.w3.org/Consortium/"><img class="img-responsive  img-thumbnail" src="images/HTML5-Logo-Resize.png" alt="Responsive Image"/></a>
+                    <div class="col-xs-10 content">
+
+                        <div class="row">
+                            <a name="HTML"><h3>HTML</h3></a>
+                            <div class="col-xs-12">
+                                <p>HTML stands for Hyper Text Markup Language. 
+                                    The HTML language is made up of elements,
+                                    which are then enclosed within tags. Tags 
+                                    are enclosed within angle brackets. Web browsers 
+                                    are able to read html files and compose them into 
+                                    visible web pages. Html was created by 
+                                    <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>.</p>
+                                <!--Picture as link-->
+                                <a href="http://www.w3.org/Consortium/"><img class="img-responsive  img-thumbnail" src="images/HTML5-Logo-Resize.png" alt="Responsive Image"/></a>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a name="CSS"><h3>CSS</h3></a>
+                            <div class="col-xs-12">
+                                <p>CSS, or Cascading Style Sheet, is a style sheet language
+                                    that can be applied to most markup languages in order 
+                                    to make them look better. CSS was created by 
+                                    Opera Software's <a href="http://www.pcmag.com/article2/0,2817,2395359,00.asp">Haakon Wium Lie</a>.</p>
+                                <!--Picture as link-->
+                                <a href="http://www.w3.org/Style/LieBos2e/history/"><img class="img-responsive img-thumbnail" src="images/CSS-Logo-Resize.png" alt="Responsive Image"/></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a name="Bootstrap"><h3>Bootstrap</h3></a>
+                            <div class="col-xs-12">
+                                <p>Bootstrap is a free collection of tools for creating websites
+                                    web applications. It was created by <a href="http://markdotto.com/">Mark Otto</a> 
+                                    and <a href="http://www.wordsbyf.at/">Jacob Thornton.</a>
+                                    You can use HTML and CSS templates to create professional looking websites.</p>
+                                <!--Picture as link-->
+                                <a href="http://getbootstrap.com/"><img class="img-responsive img-thumbnail" src="images/Bootstrap-logo.png" alt="Responsive Image"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <a name="Java"><h3>Javascript</h3></a>
+                            <div class="col-xs-12">
+                                <p>Javascript is a computer programming language that allows user interaction with browsers. It is 
+                                    commonly used in video games as well as desktop and mobile applications. It was originally designed 
+                                    by <a href="https://brendaneich.com/">Brendan Eich</a>.</p>
+                                <a href="http://www.w3schools.com/js/"><img class="img-responsive img-thumbnail" src="http://i0.wp.com/blog.sklambert.com/wp-content/uploads/2013/05/JS6_Logo.png?resize=200%2C200"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <a name="Melon"><h3>MelonJS</h3></a>
+                            <div class="col-xs-12">
+                                <p>MelonJS is a free, open-source game engine that allows developers to more easily create
+                                    video and computer games.
+                                    <a href="http://melonjs.org/"><img class="img-responsive img-thumbnail" src="http://3.bp.blogspot.com/-rA7W9e8K5_A/U_6Rqm6hYjI/AAAAAAAAAvk/mylbYtgvWDo/s1600/melonjs.png"></a>
+                            </div>
+                        </div>
+
 
                     </div>
-                </div>
-                <div class="row">
-                    <a name="CSS"><h3>CSS</h3></a>
-                    <div class="col-xs-12">
-                        <p>CSS, or Cascading Style Sheet, is a style sheet language
-                            that can be applied to most markup languages in order 
-                            to make them look better. CSS was created by 
-                            Opera Software's <a href="http://www.pcmag.com/article2/0,2817,2395359,00.asp">Haakon Wium Lie</a>.</p>
-                        <!--Picture as link-->
-                        <a href="http://www.w3.org/Style/LieBos2e/history/"><img class="img-responsive img-thumbnail" src="images/CSS-Logo-Resize.png" alt="Responsive Image"/></a>
+                    <div class="col-xs-2 list-group table-of-contents">
+                        <h4>Table of Contents:</h4>
+                        <a class="list-group-item" href="#HTML">HTML</a>
+                        <a class="list-group-item" href="#CSS">CSS</a>
+                        <a class="list-group-item" href="#Bootstrap">Bootstrap</a>
+                        <a class="list-group-item" href="#Java">Javascript</a>
+                        <a class="list-group-item" href="#Melon">MelonJS</a>
                     </div>
                 </div>
-                <div class="row">
-                    <a name="Bootstrap"><h3>Bootstrap</h3></a>
-                    <div class="col-xs-12">
-                        <p>Bootstrap is a free collection of tools for creating websites
-                            web applications. It was created by <a href="http://markdotto.com/">Mark Otto</a> 
-                            and <a href="http://www.wordsbyf.at/">Jacob Thornton.</a>
-                            You can use HTML and CSS templates to create professional looking websites.</p>
-                        <!--Picture as link-->
-                        <a href="http://getbootstrap.com/"><img class="img-responsive img-thumbnail" src="images/Bootstrap-logo.png" alt="Responsive Image"></a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-xs-2 list-group table-of-contents">
-                <h4>Table of Contents:</h4>
-                <a class="list-group-item" href="#HTML">HTML</a>
-                <a class="list-group-item" href="#CSS">CSS</a>
-                <a class="list-group-item" href="#Bootstrap">Bootstrap</a>
             </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

@@ -43,10 +43,8 @@ div {
 }
 
 .jumbotron {
-    background-image: url("http://wallpoper.com/images/00/43/54/14/sakura-cherry-blossom_00435414.jpg")     /*jumbotron in 
-                                                                                                            modal background
-                                                                                                            image*/
-    
+    background-image: url("http://wallpoper.com/images/00/43/54/14/sakura-cherry-blossom_00435414.jpg");
+    margin: 0;
 }
 
 .jumbotron-text {
@@ -86,5 +84,13 @@ div {
 }
 
 .jumbo-projects {
-    background-image: url("")
+    background-image: url("http://www.gardeningknowhow.com/wp-content/uploads/2012/08/magnolia-tree1.jpg")
+}
+
+.jumbo-tech {
+    background-image: url("http://flowerspetal.files.wordpress.com/2013/08/yellow-red-lilies.jpg")
+}
+
+p {
+    color: white;
 }
