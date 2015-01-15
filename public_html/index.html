@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Esme Grundy's Portfolio</title>
@@ -14,21 +9,17 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body data-spy="scroll" data-target=".navbar">
-
+        <video autoplay loop id="bgvid">
+            <source src="videos/Falling Leaves.mp4" type="video/mp4">
+        </video>
 
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <ul class="nav nav-tabs">
-                    <li><a href="index.html" class="name">Esme Grundy</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#technology">Technology</a></li>
-                    <li><form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                        </form></li>
+                    <li><a class="nav-button" href=index.html" class="name">EsmeGrundy</a></li>
+                    <li><a class="nav-button" href="#about">About Me</a></li>
+                    <li><a class="nav-button" href="#projects">Projects</a></li>
+                    <li><a class="nav-button" href="#technology">Technology</a></li>
                 </ul>
 
             </div>
@@ -39,9 +30,7 @@ and open the template in the editor.
                     <div class="col-xs-12">
                         <!--Jumbotron-->
                         <div  class="jumbotron">
-                            <video autoplay loop id="bgvid">
-                                <source src="videos/Falling Leaves.mp4" type="video/mp4">
-                            </video>
+
                             <h1 class="jumbotron-head" id="intro">My name is Esme Grundy.</h1>
                             <p class="jumbotron-text">This is my portfolio website. Enjoy.</p>
                             <!-- Button trigger modal -->
