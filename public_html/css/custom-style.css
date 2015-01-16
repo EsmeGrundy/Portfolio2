@@ -141,5 +141,18 @@ video#bgvid {
     position: fixed; right: 0; bottom: 0;
     min-width: 100%; min-height: 100%;
     width: auto; height: auto; z-index: -100;
- 
+
+}
+
+.nav-button {
+    color:blue; background: #ebcccc;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+.nav-button:hover { 
+    color:orange; background:black; 
 }
