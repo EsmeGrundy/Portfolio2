@@ -69,9 +69,10 @@ div {
 }
 
 .jumbo-back {
-    background-image: url("http://wolbest.com/wp-content/uploads/2014/09/Cherry-Blossom-Tree.jpg")  /*sets background 
+    background-image: url("http://wolbest.com/wp-content/uploads/2014/09/Cherry-Blossom-Tree.jpg");  /*sets background 
                                                                                                     image for 
                                                                                                     background jumbotron*/
+        background-size: cover;
 }
 
 .carousel-caption {
@@ -84,11 +85,13 @@ div {
 }
 
 .jumbo-projects {
-    background-image: url("http://www.gardeningknowhow.com/wp-content/uploads/2012/08/magnolia-tree1.jpg")
+    background-image: url("http://www.gardeningknowhow.com/wp-content/uploads/2012/08/magnolia-tree1.jpg");
+    background-size: cover;
 }
 
 .jumbo-tech {
-    background-image: url("http://flowerspetal.files.wordpress.com/2013/08/yellow-red-lilies.jpg")
+    background-image: url("http://flowerspetal.files.wordpress.com/2013/08/yellow-red-lilies.jpg");
+    background-size: cover;
 }
 
 p {
@@ -155,4 +158,9 @@ video#bgvid {
 }
 .nav-button:hover { 
     color:orange; background:black; 
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
 }
